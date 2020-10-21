@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Executes a handler function must call the mock method with button click 1`] = `[MockFunction]`;
