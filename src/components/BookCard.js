@@ -15,7 +15,7 @@ class BookCard extends Component {
 
                     {
                        this.props.action === 'add' ?  
-                       <Button variant="primary" id="addButton" onClick={this.addCart}>Add To Cart</Button> : 
+                       <Button variant="primary" id="addButton" onClick={this.props.addToCartClick}>Add To Cart</Button> : 
                        <Button variant="danger" id="deleteButton" onClick={this.props.deleteFromCartClick}>Delete</Button>
                     }
                     
@@ -24,9 +24,10 @@ class BookCard extends Component {
         );
     }
 
-    addCart = () => {
-        console.log('added');
-    }
+    // addCart = () => {
+    //     this.props.addToCartClick();
+    //     console.log('added');
+    // }
 }
 
 export default BookCard;

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 // import { Table, Button } from 'react-bootstrap';
-import styled from 'styled-components';
 import BookCard from './BookCard';
 import appService from './../app-service';
 import Row from 'react-bootstrap/Row';

@@ -36,6 +36,4 @@ export default function appReducer(state = initialState, action) {
         ...state,
         cartItems: lCartItems
     }
-
-
 }
